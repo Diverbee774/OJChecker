@@ -5,17 +5,16 @@
 ## 使用方法
 
 1. 安装python3
-
 2. 安装openpyxl
-
 3. 将用户数据放入config(第一行不用于放置信息, 第一列放置姓名，第二列放置oj用户名
 
-    vjudge数据保存为vjudge.xlsx
-    
-    牛客数据保存为nowcoder.xlsx
-    
-    计蒜客数据保存为jisuanke.xlsx
+   vjudge数据保存为vjudge.xlsx
 
+   牛客数据保存为nowcoder.xlsx
+
+   计蒜客数据保存为jisuanke.xlsx
+
+   ccodeforces保存为codeforces.xlsx
 4. 使用
 
 ```bash
@@ -25,6 +24,8 @@ python vjc.py
 python ncc.py
 #查询计蒜客
 python jsk.py
+#查询codeforces rating
+python cf_rating.py
 ```
 
 5. 根据提示进行参数输入
